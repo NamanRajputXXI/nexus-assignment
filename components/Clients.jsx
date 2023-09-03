@@ -8,8 +8,8 @@ const Clients = () => {
         <h1>Recent clients</h1>
         <p>
           We worked with the Fortune 500 companies in the USA, Africa, UK,
-          Middle East <br /> World's 4th Strongest Banking Brand, Automobile &
-          IoT industry <br />
+          Middle East <br /> World&apos;s 4th Strongest Banking Brand,
+          Automobile &amp; IoT industry <br />
         </p>
       </div>
       <Card />

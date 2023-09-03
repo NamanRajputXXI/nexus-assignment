@@ -6,9 +6,7 @@ import Teams from "./Teams";
 import Footer from "./Footer";
 const HomeSections = () => {
   const myRef = useRef(null);
-  const newRef = useRef(null);
   const [sectionVisible, setSectionVisible] = useState();
-  const [newState, setNewState] = useState();
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
@@ -25,7 +23,7 @@ const HomeSections = () => {
       <section className={`${sectionVisible ? "section2" : "section1"}`}>
         <div className="caseStudy">
           <div className="case__study--text">
-            <h3 ref={myRef}>Fintech Solution</h3>
+            <h3>Fintech Solution</h3>
             <p className="subtitle">Transforming Fintech with AI</p>
             <div className="capsules">
               <div className="capsule">Fraud detection </div>
@@ -54,6 +52,7 @@ const HomeSections = () => {
         </div>
         <div className="caseStudy">
           <img
+            ref={myRef}
             height={400}
             alt="Brilliant Move"
             src="https://geeksinvention.com/assets/v3/industry-iot.webp"
@@ -93,13 +92,14 @@ const HomeSections = () => {
               <div className="capsule">Course offering</div>
               <div className="capsule">Professional Training</div>
             </div>
-            <p ref={myRef} className="text">
+            <p className="text">
               Elevate your education institution with our comprehensive software
               solutions. Learning management, course offerings, professional
               training, certification, and school management tools to streamline
-              your operations and enhance your students' learning experience.
-              Trust us to provide the cutting-edge technology and support you
-              need to thrive in the ever-evolving education industry.
+              your operations and enhance your students&apos; learning
+              experience. Trust us to provide the cutting-edge technology and
+              support you need to thrive in the ever-evolving education
+              industry.
             </p>
             <div className="caseStudy__button">
               <button>See full case Study </button>

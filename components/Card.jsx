@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <div className="grid-container">
       {data.map((card, index) => (
-        <div className="card">
+        <div className="card" key={index}>
           <img
             width={200}
             src="https://geeksinvention.com/assets/v3/client/logo-penny.webp"

@@ -1,21 +1,9 @@
-import LoadingSpinner from "@/components/LoadingSpinner";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import HomePage from "./HomePage";
+import HomeSections from "../components/HomeSections";
 
 const index = () => {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-  }, []);
-  return (
-    <>
-      <LoadingSpinner isLoading={isLoading} />
-      <HomePage />
-    </>
-  );
+  return <HomePage />;
 };
 
 export default index;
