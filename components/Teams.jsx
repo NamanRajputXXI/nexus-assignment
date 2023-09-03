@@ -23,7 +23,7 @@ const Teams = () => {
           </div>
           <div className="property">
             <img
-              src="https://geeksinvention.com/assets/dedicated-teams/agile-0aab98f2053db8490987560a2e9f37fe.svg"
+              src="https://geeksinvention.com/assets/dedicated-teams/deep-tech-7f909bfebb1eebf6eda5832f658cbbaa.svg"
               width="150"
               height="150"
               alt=""
@@ -32,7 +32,7 @@ const Teams = () => {
           </div>
           <div className="property">
             <img
-              src="https://geeksinvention.com/assets/dedicated-teams/agile-0aab98f2053db8490987560a2e9f37fe.svg"
+              src="https://geeksinvention.com/assets/dedicated-teams/pc-293103263e599a94d7a2d886fab89b42.svg"
               width="150"
               height="150"
               alt=""
@@ -43,7 +43,7 @@ const Teams = () => {
         <div className="row">
           <div className="property">
             <img
-              src="https://geeksinvention.com/assets/dedicated-teams/agile-0aab98f2053db8490987560a2e9f37fe.svg"
+              src="https://geeksinvention.com/assets/dedicated-teams/scale-33474d0929577c56ca4d116820e24ee8.svg"
               width="150"
               height="150"
               alt=""
@@ -52,7 +52,7 @@ const Teams = () => {
           </div>
           <div className="property">
             <img
-              src="https://geeksinvention.com/assets/dedicated-teams/agile-0aab98f2053db8490987560a2e9f37fe.svg"
+              src="https://geeksinvention.com/assets/dedicated-teams/reg-rep-732453cad7b07eb4cc4147fa41423c4a.svg"
               width="150"
               height="150"
               alt=""
@@ -61,7 +61,7 @@ const Teams = () => {
           </div>
           <div className="property">
             <img
-              src="https://geeksinvention.com/assets/dedicated-teams/agile-0aab98f2053db8490987560a2e9f37fe.svg"
+              src="https://geeksinvention.com/assets/dedicated-teams/time-track-d7afee36956a4a6c0bb1e734af7909fc.svg"
               width="150"
               height="150"
               alt=""

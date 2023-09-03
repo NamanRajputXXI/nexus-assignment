@@ -23,7 +23,7 @@ const Platform = () => {
         </div>
         <div className="platform">
           <img
-            src="https://geeksinvention.com/assets/software-platforms/web-45bb148b27e8f57f2af5936654ab0d96.svg"
+            src="https://geeksinvention.com/assets/software-platforms/ios-00fc94480a85413ba6276b2392cbaa0a.svg"
             width="150"
             height="150"
             alt=""
@@ -32,7 +32,7 @@ const Platform = () => {
         </div>
         <div className="platform">
           <img
-            src="https://geeksinvention.com/assets/software-platforms/web-45bb148b27e8f57f2af5936654ab0d96.svg"
+            src="https://geeksinvention.com/assets/software-platforms/android-163d4b8d487bb2c3ade6e7aad7dda588.svg"
             width="150"
             height="150"
             alt=""
@@ -41,7 +41,7 @@ const Platform = () => {
         </div>
         <div className="platform">
           <img
-            src="https://geeksinvention.com/assets/software-platforms/web-45bb148b27e8f57f2af5936654ab0d96.svg"
+            src="https://geeksinvention.com/assets/software-platforms/tv-f6c551eb20333d6604e9fff685c392d1.svg"
             width="150"
             height="150"
             alt=""
@@ -50,7 +50,7 @@ const Platform = () => {
         </div>
         <div className="platform">
           <img
-            src="https://geeksinvention.com/assets/software-platforms/web-45bb148b27e8f57f2af5936654ab0d96.svg"
+            src="https://geeksinvention.com/assets/software-platforms/hybrid-b835b200edfc426c9f5a6ef76412aff6.svg"
             width="150"
             height="150"
             alt=""
@@ -59,7 +59,7 @@ const Platform = () => {
         </div>
         <div className="platform">
           <img
-            src="https://geeksinvention.com/assets/software-platforms/web-45bb148b27e8f57f2af5936654ab0d96.svg"
+            src="https://geeksinvention.com/assets/software-platforms/wear-6f1886d1d03002e8fe1d04e499125d00.svg"
             width="150"
             height="150"
             alt=""
