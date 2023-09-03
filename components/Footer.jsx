@@ -7,7 +7,7 @@ const Footer = () => {
         <h1>Get to know us better!</h1>
         <p>
           It is a pleasure to have you on our website. Let us know if
-          there&apos;s an opportunity to <br /> do something together.
+          there&apos;s an opportunity to do something together.
         </p>
       </div>
 
@@ -30,21 +30,6 @@ const Footer = () => {
           <div className="footer-nav">
             <div className="nav__i">
               <ul className="header-nav ">
-                <li className="footer-menu-item">
-                  <a href="">Works</a>
-                </li>
-                <li className="footer-menu-item">
-                  <a href="">Technologies</a>
-                </li>
-                <li className="footer-menu-item">
-                  <a href="">Services</a>
-                </li>
-                <li className="footer-menu-item">
-                  <a href="">Company</a>
-                </li>
-                <li className="footer-menu-item">
-                  <a href="">Contacts</a>
-                </li>
                 <li className="footer-menu-item">
                   <a href="">Terms and Conditions</a>
                 </li>

@@ -127,6 +127,7 @@ section {
 .caseStudy h3 {
   font-size: 63px;
   letter-spacing: 1px;
+  z-index: -1;
 }
 .case__study--text {
   display: flex;
@@ -235,14 +236,6 @@ section {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .platforms {
-    grid-template-columns: repeat(
-      auto-fill,
-      minmax(200px, 1fr)
-    ); /* Adjust min and max values as needed */
-  }
-}
 .platform__section--text h1 {
   font-size: 60px;
   font-family: "brandon_text_regularregular", Helvetica, Arial, sans-serif;
@@ -389,20 +382,49 @@ section {
   justify-content: space-evenly;
   font-family: "radikalregular", Helvetica, Arial, sans-serif;
 }
+/* Styles for the hamburger menu icon */
+.hamburger {
+  cursor: pointer;
+  display: none; /* Initially hidden on larger screens */
+  cursor: pointer;
+  display: none; /* Initially hidden on larger screens */
+  position: absolute;
+  top: 20px; /* Adjust this value to position it vertically */
+  right: 20px;
+  z-index: 10;
+}
+
+.hamburger-line {
+  width: 30px;
+  height: 3px;
+  background-color: white; /* Color of the lines */
+  margin: 6px 0;
+  transition: 0.4s;
+  color: white;
+  position: relative;
+  right: 0px;
+}
+.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Styles for the open state of the hamburger menu */
+.hamburger.open .hamburger-line:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.open .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .hamburger-line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  }
-}
 
 /* Media query for even smaller screens */
-@media (max-width: 480px) {
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr); /* 1 column */
-  }
-}
 
 /* resoponsive design */
 @media (max-width: 1250px) {
@@ -509,6 +531,122 @@ section {
   }
 }
 @media (max-width: 640px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr); /* 2 columns */
+  }
+  .platform__section--text h1 {
+    font-size: 25px;
+  }
+  .home__section--footer h3 {
+    font-size: 25px;
+  }
+  .home__section--footer p {
+    font-size: 16px;
+    padding: 0 10px;
+    width: 350px;
+  }
+  .header-nav {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 10px;
+    text-align: center;
+  }
+  .platform__section--text h1 {
+    font-size: 25px;
+  }
+  .platform__section--text p {
+    font-size: 11px;
+    width: 400px;
+  }
+  .header__heading h1 {
+    font-size: 32px;
+    line-height: 6px;
+  }
+  .platforms {
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 200px);
+  }
+  .footer-menu-item a {
+    display: none;
+  }
+  .case__study--text .text {
+    width: 350px;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .header__heading p {
+    font-size: 20px;
+  }
+  .copyright p {
+    font-size: 12px;
+  }
+  .caseStudy img {
+    width: 70vw;
+    height: 350px;
+  }
+  .row {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .hamburger {
+    display: block; /* Display the hamburger icon on smaller screens */
+  }
+
+  /* Additional styles for the mobile menu */
+  .mobile-menu {
+    display: block; /* Initially hidden, shown when menu is open */
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 300px;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background-color: black; /* Background color of the mobile menu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    padding: 10px;
+    z-index: 1;
+  }
+  .mobile-menu-item a {
+    text-decoration: none;
+    color: white;
+  }
+  .mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+  }
+  .caseStudy h3 {
+    font-size: 30px;
+  }
+
+  .mobile-menu-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .mobile-menu-item {
+    margin-bottom: 10px;
+  }
+  .header-menu-item a {
+    display: none;
+  }
+  .capsule {
+    line-height: 10px;
+
+    font-size: 12px;
+    padding: 5px 10px;
+    text-align: center;
+    color: #f4f4f4;
+
+    min-width: 25px;
+    margin-right: 6px;
+    font-family: "brandon_text_regularregular", Helvetica, Arial, sans-serif;
+  }
 }
 
 /* Animations */
